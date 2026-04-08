@@ -1,0 +1,51 @@
+﻿/*Genel stiller*/
+body{
+font-family:Segeo 'Segoe UI', sans-serif;
+transition: background 0.4s, color 0.4s;
+padding: 30px;
+line-height: 1000px;
+margin:auto;
+}
+/*Karanlik Mod  Renkleri*/
+.dark-mode {
+background-color: #lalala;
+color: #ffffff;
+}
+/*Proje Kartlari (Grid yapisi-Responsive)*/
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap:20px;
+    margin-top:20px;
+}
+.proje-kart{
+    border:2px solid #3498db;
+    padding: 20px;
+    border-radius:center;
+    background: rgba(52,152,219,0.05);
+}
+/*Yetenek Bari (Skill Bars)*/
+.beceri-alani{margin-top:30px;}
+.bar-cerceve{
+    background:#eee;
+    height: 15px ;
+    border-radius:10px;
+    margin-bottom: 15px;
+    overflow:hidden;
+}
+.doluluk {
+    background:#3498db;
+    height:100%;
+    transition:width 1s ease-in-out;
+}
+/*Button Tasarimi*/
+button{
+    background:#3498db;
+    color: white;
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {background:#2980b9; }
